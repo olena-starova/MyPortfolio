@@ -60,6 +60,12 @@ p {
   color: white;
 }
 
+@media (max-with: 800px) {
+  .app-link {
+    text-align: center;
+  }
+}
+
 .navigation-links {
   display: flex;
   margin-top: 40px;
