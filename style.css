@@ -11,7 +11,7 @@
 
 body {
   margin: 100px;
-  background: #bf94e4;
+  background: linear-gradient(#bfadcc (191,173,204),#ffe1f5 (255,225,245), #dfbbda (223,187,218), #896790 (137,103,144),#f2bae4 (242,186,228));
 }
 
 h1,
