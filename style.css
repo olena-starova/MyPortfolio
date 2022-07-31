@@ -117,7 +117,7 @@ p {
   text-decoration: underline;
 }
 
-@media (max-with: 576px) {
+@media (max-with: 600px) {
   h2 {
     font-size: 30px;
   }
