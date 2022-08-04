@@ -39,12 +39,13 @@ h1 {
 h2 {
   font-size: 48px;
   font-weight: 700px;
+  color: lavenderblush;
 }
 
 h3 {
   font-size: 24px;
+  font-weight: 600px;
   color: lavenderblush;
-  font-weight: 500px;
 }
 
 p {
