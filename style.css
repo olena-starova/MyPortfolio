@@ -11,7 +11,7 @@
 
 body {
   margin: 100px;
-  background: linear-gradient(#ffd966, #9fc5e8, #b86fac, #ffefef);
+  background: linear-gradient(#fbb825, #fbcf67, #fbe8c9, #f6ca97, #ed8728);
 }
 
 h1,
@@ -50,6 +50,7 @@ p {
   margin: 10px;
   font-size: 18px;
   line-height: 1.5;
+  font-family: "PT Mono";
 }
 
 .app-link {
