@@ -38,7 +38,7 @@ h3 {
 
 p {
   font-size: 18px;
-  font-family: "PT+Mono";
+  font-family: "PT Mono";
   line-height: 1.5;
   text-align: left;
 }
@@ -59,6 +59,7 @@ p {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+  font-family: "Roboto Slab";
 }
 
 @media (max-with: 800px) {
