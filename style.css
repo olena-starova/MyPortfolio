@@ -29,11 +29,13 @@ h1 {
 
 h2 {
   font-size: 48px;
+  font-weight: 700px;
 }
 
 h3 {
   font-size: 24px;
-  opacity: 0.7;
+  opacity: 0.8;
+  font-weight: 500px;
 }
 
 p {
