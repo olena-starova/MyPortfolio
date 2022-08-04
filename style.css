@@ -62,10 +62,8 @@ p {
   font-family: "Roboto Slab";
 }
 
-@media (max-with: 800px) {
-  .app-link {
-    text-align: center;
-  }
+.app-link a {
+  font-family: "Roboto Slab";
 }
 
 .navigation-links {
@@ -101,6 +99,7 @@ p {
 
 .about-paragraph p {
   margin: 10px;
+  font-family: "PT Mono";
 }
 
 .email-link {
