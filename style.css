@@ -24,7 +24,7 @@ h3 {
 
 h1 {
   font-size: 96px;
-  color: #734f96;
+  color: rgb(242, 242, 22);
 }
 
 h2 {
@@ -61,7 +61,7 @@ p {
   text-transform: capitalize;
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
-  color: white;
+  color: var(--secondary-color);
   font-family: "Roboto Slab";
 }
 
