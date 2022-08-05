@@ -1,6 +1,7 @@
 :root {
   --primary-color: #ecbc00;
   --secondary-color: #f5f2fe;
+  --branding-color: lavenderblush;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --heading-font-family: Georgia, "Times New Roman", Times, serif;
   --main-font-family: "Roboto Slab";
@@ -10,7 +11,7 @@
 .navbar-brand,
 .nav-item {
   font-family: var(--main-font-family);
-  color: #ecbc00;
+  color: var(--primary-color);
 }
 
 .navbar-brand {
@@ -37,21 +38,22 @@ h1 {
 }
 
 h2 {
-  font-size: 48px;
+  font-size: 50px;
   font-weight: 800px;
-  color: lavenderblush;
+  color: var(--branding-color);
 }
 
 h3 {
   font-size: 24px;
   font-weight: 600px;
-  color: lavenderblush;
+  color: var(--branding-color);
 }
 
 p {
   font-size: 18px;
   font-family: var(--text-font-family);
-  line-height: 1.5;
+  font-weight: normal;
+  line-height: 30px;
   text-align: left;
 }
 
@@ -59,7 +61,8 @@ p {
   text-align: center;
   margin: 10px;
   font-size: 18px;
-  line-height: 1.5;
+  font-weight: normal;
+  line-height: 30px;
   font-family: var(--text-font-family);
 }
 
@@ -96,14 +99,14 @@ p {
 .contact-link {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
-  color: white;
+  color: var(--branding-color);
   font-family: var(--main-font-family);
 }
 
 .about-link {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
-  color: white;
+  color: var(--branding-color);
   font-family: var(--main-font-family);
 }
 
