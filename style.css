@@ -87,6 +87,7 @@ p {
 
 .site-link {
   font-family: var(--main-font-family);
+  border: 1px solid var(--branding-color);
   border-radius: 5px;
   padding: 20px 15px;
   margin-top: 10px;
