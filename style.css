@@ -95,9 +95,11 @@ p {
   box-shadow: var(--box-shadow);
   color: var(--secondary-color);
   font-family: var(--main-font-family);
+  display: flex;
+  justify-content: center;
 }
 
-.app-link a {
+.site-link a {
   font-family: var(--main-font-family);
 }
 
