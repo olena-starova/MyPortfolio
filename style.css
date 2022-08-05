@@ -85,14 +85,7 @@ p {
   font-family: var(--text-font-family);
 }
 
-.site-link,
-.navigation-links {
-  display: flex;
-  margin-top: 40px;
-  justify-content: center;
-}
-
-.site-link a {
+.site-link {
   font-family: var(--main-font-family);
   border-radius: 5px;
   padding: 20px 15px;
@@ -103,10 +96,14 @@ p {
   box-shadow: var(--box-shadow);
   color: var(--secondary-color);
   font-family: var(--main-font-family);
-  display: flex;
   justify-content: center;
 }
 
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
 .navigation-links a {
   margin: 20px;
   border-radius: 5px;
