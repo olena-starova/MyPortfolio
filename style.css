@@ -50,10 +50,18 @@ h3 {
 }
 
 .project-description {
-  padding: 100px 60px;
+  padding: 10px 60px;
 }
 
-@media (max-with: 960px) {
+@media (max-with: 900px) {
+  h1 {
+    font-size: 44px;
+    line-height: 2;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
   .project-description {
     padding: 30;
     text-align: center;
