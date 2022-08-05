@@ -49,6 +49,17 @@ h3 {
   color: var(--branding-color);
 }
 
+.project-description {
+  padding: 100px 60px;
+}
+
+@media (max-with: 960px) {
+  .project-description {
+    padding: 30;
+    text-align: center;
+  }
+}
+
 p {
   font-size: 18px;
   font-family: var(--text-font-family);
@@ -130,10 +141,4 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
-}
-
-@media (max-with: 600px) {
-  h2 {
-    font-size: 30px;
-  }
 }
