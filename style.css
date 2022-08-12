@@ -53,26 +53,6 @@ h3 {
   padding: 10px 60px;
 }
 
-@media (max-with: 900px) {
-  h1 {
-    font-size: 44px;
-    line-height: 2;
-  }
-
-  h2 {
-    font-size: 30px;
-  }
-  .project-description {
-    padding: 30;
-    text-align: center;
-  }
-
-  .about-section {
-    text-align: center;
-    padding: 0;
-  }
-}
-
 p {
   font-size: 18px;
   font-family: var(--text-font-family);
@@ -82,17 +62,12 @@ p {
   margin: 10px;
 }
 
-.about-me-content {
-  margin: 30px;
+.about-me {
+  padding: 160px 20px;
 }
 
-.about-me-content p {
-  font-size: 18px;
-  font-family: var(--text-font-family);
-  font-weight: normal;
-  line-height: 30px;
-  text-align: left;
-  margin: 10px;
+.about-section-content {
+  margin: 30px;
 }
 
 .site-link {
@@ -138,4 +113,24 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+@media (max-with: 900px) {
+  h1 {
+    font-size: 44px;
+    line-height: 2;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+  .project-description {
+    padding: 30;
+    text-align: center;
+  }
+
+  .about-me {
+    text-align: center;
+    padding: 0;
+  }
 }
