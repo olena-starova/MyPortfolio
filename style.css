@@ -96,11 +96,6 @@ p {
 }
 
 .site-link {
-  display: flex;
-  justify-content: center;
-}
-
-.site-link a {
   font-family: var(--main-font-family);
   border: 1px solid var(--branding-color);
   border-radius: 5px;
@@ -112,6 +107,7 @@ p {
   box-shadow: var(--box-shadow);
   color: var(--secondary-color);
   font-family: var(--main-font-family);
+  justify-content: center;
 }
 
 .navigation-links {
