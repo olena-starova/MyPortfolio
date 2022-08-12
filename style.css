@@ -109,15 +109,6 @@ p {
   font-family: var(--main-font-family);
 }
 
-.about-paragraph {
-  margin: 30px 0;
-}
-
-.about-paragraph p {
-  margin: 10px;
-  font-family: var(--text-font-family);
-}
-
 .email-link {
   display: flex;
   justify-content: center;
