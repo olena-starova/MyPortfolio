@@ -125,11 +125,12 @@ p {
     font-size: 30px;
   }
   .project-description {
-    padding: 30;
+    padding: 30px;
     text-align: center;
   }
 
   .about-me {
+    margin-left: 50;
     text-align: center;
     padding: 0;
   }
