@@ -103,7 +103,7 @@ p {
   font-family: var(--main-font-family);
 }
 
-.email-link {
+.contact-link {
   display: flex;
   justify-content: center;
   color: blue;
@@ -112,7 +112,7 @@ p {
   font-family: var(--main-font-family);
 }
 
-.email-link:hover {
+.contact-link:hover {
   text-decoration: underline;
 }
 
