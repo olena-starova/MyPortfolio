@@ -62,7 +62,15 @@ p {
 }
 
 .about-me-content {
-  margin-left: 60px;
+  margin-right: 70px;
+}
+
+.about-me-content p {
+  font-size: 18px;
+  font-family: var(--text-font-family);
+  font-weight: normal;
+  line-height: 30px;
+  text-align: left;
 }
 
 .site-link {
@@ -70,7 +78,6 @@ p {
   border: 1px solid var(--branding-color);
   border-radius: 5px;
   padding: 20px 15px;
-  margin-top: 10px;
   text-decoration: none;
   text-transform: capitalize;
   background: var(--primary-color);
@@ -87,6 +94,7 @@ p {
 }
 .navigation-links a {
   margin: 20px;
+  border: 1px solid var(--branding-color);
   border-radius: 5px;
   padding: 20px 15px;
   text-decoration: none;
