@@ -103,7 +103,7 @@ p {
   font-family: var(--main-font-family);
 }
 
-.contact-link {
+.touch-link {
   display: flex;
   justify-content: center;
   color: blue;
@@ -112,7 +112,7 @@ p {
   font-family: var(--main-font-family);
 }
 
-.contact-link:hover {
+.touch-link:hover {
   text-decoration: underline;
 }
 
