@@ -63,9 +63,6 @@ p {
 
 .about-me-content {
   margin-right: 70px;
-}
-
-.about-me-content p {
   font-size: 18px;
   font-family: var(--text-font-family);
   font-weight: normal;
