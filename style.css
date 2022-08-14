@@ -130,17 +130,17 @@ footer {
 
 footer .social-links a {
   margin: 0 20px;
-  color: #ee82ee;
-  background: var(--secondary-color);
+  color: var(--secondary-color);
+  background: #ee82ee;
   padding: 10px 14px;
   border-radius: 50%;
   font-size: 18px;
-  transition: all 150ms ease-in-out;
+  transition: all 100ms ease-in-out;
 }
 
 footer .social-links a:hover {
-  color: var(--secondary-color);
-  background: #ee82ee;
+  color: #ee82ee;
+  background: var(--secondary-color);
 }
 
 @media (max-with: 900px) {
