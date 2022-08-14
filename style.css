@@ -128,14 +128,20 @@ footer {
   margin: 50px 0;
 }
 
-footer .social-media a {
+footer .social-links a {
   margin: 0 20px;
   color: #ee82ee;
   background: var(--secondary-color);
   padding: 10px 14px;
   border-radius: 50%;
   font-size: 18px;
+  transition: all 150ms ease-in-out;
 }
+
+footer .social-links a:hover {
+  color:var(--secondary-color);
+  background: #ee82ee;
+
 
 @media (max-with: 900px) {
   h1 {
