@@ -139,9 +139,9 @@ footer .social-links a {
 }
 
 footer .social-links a:hover {
-  color:var(--secondary-color);
+  color: var(--secondary-color);
   background: #ee82ee;
-
+}
 
 @media (max-with: 900px) {
   h1 {
