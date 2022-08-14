@@ -131,16 +131,26 @@ footer {
 footer .social-links a {
   margin: 0 25px;
   color: var(--secondary-color);
-  background: #bf94e4;
-  padding: 14px 14px;
+  background: blue;
+  padding: 11px 14px;
   border-radius: 50%;
   font-size: 20px;
   transition: all 100ms ease-in-out;
 }
 
 footer .social-links a:hover {
-  color: #bf94e4;
+  color: blue;
   background: var(--secondary-color);
+}
+
+footer .contact-box {
+  background: #bf94e4;
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
 }
 
 @media (max-with: 900px) {
