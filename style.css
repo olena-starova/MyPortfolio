@@ -12,12 +12,12 @@
 .nav-item {
   font-family: var(--main-font-family);
   color: var(--primary-color);
+  font-size: 20px;
 }
 
 .navbar-brand {
   color: var(--primary-color);
   font-weight: 700;
-  font-size: 18px;
 }
 
 body {
@@ -42,12 +42,12 @@ h3 {
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 84px;
   color: #feff1c;
 }
 
 h2 {
-  font-size: 50px;
+  font-size: 48px;
   font-weight: 800px;
   color: var(--branding-color);
 }
@@ -133,6 +133,11 @@ p {
   h2 {
     font-size: 25px;
   }
+
+  p {
+    font-size: 22px;
+  }
+
   .project-description {
     padding: 30px;
     text-align: center;
