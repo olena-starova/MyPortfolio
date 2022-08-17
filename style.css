@@ -149,6 +149,11 @@ footer .contact-box p {
 }
 
 @media (max-with: 900px) {
+  body {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
   h1 {
     font-size: 40px;
     line-height: 2;
