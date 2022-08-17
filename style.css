@@ -70,13 +70,8 @@ p {
   text-align: left;
 }
 
-.about-me-content {
-  margin-right: 70px;
-  font-size: 18px;
-  font-family: var(--text-font-family);
-  font-weight: normal;
-  line-height: 30px;
-  text-align: left;
+.content {
+  margin: 30px;
 }
 
 .site-link {
@@ -168,12 +163,11 @@ footer .contact-box p {
   }
 
   .project-description {
-    padding: 30px;
+    padding: 0px;
     text-align: center;
   }
 
   .content-container {
-    margin-left: 40px;
     text-align: center;
     padding: 0;
   }
