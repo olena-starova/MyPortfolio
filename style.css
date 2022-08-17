@@ -70,6 +70,10 @@ p {
   text-align: left;
 }
 
+.content {
+  margin: 30px;
+}
+
 .site-link {
   font-family: var(--main-font-family);
   border: 1px solid var(--branding-color);
